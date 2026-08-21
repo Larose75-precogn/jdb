@@ -101,7 +101,7 @@ def _resolve_role(org_id, email):
 # Orgs de DÉMO publiques : accessibles sans auth (données d'exemple, jamais du réel). Même
 # esprit que PUBLIC_DEMO_ORG_IDS côté Navigator. jdb_api agit alors comme owner de démo.
 DEMO_ORGS = {'jdbshow'}
-DEMO_EMAIL = '57esoral@gmail.com'
+DEMO_EMAIL = 'demo@structory.ai'
 
 
 def _require(org_id, data, write=True):
